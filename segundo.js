@@ -1,7 +1,7 @@
 var senhaCadastrada = "bruxa";
 
 
-var maximoTentativas = 1;
+var maximoTentativas = 3;
 var tentativaAtual = 1;
 
 while(tentativaAtual <= maximoTentativas) {
@@ -17,7 +17,7 @@ while(tentativaAtual <= maximoTentativas) {
 
     } else {
 
-        if (tentativaAtual == 0) {
+        if (tentativaAtual == 3) {
             alert('Voce ERROUUU, volte e tente denovo'),
             window.location.replace("/vasco2.html")
         }
